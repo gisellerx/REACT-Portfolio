@@ -1,0 +1,117 @@
+body {
+    background: rgba(19, 91, 180, 0.849);
+    color: rgb(119, 176, 189);
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px rgb(120, 215, 236) solid;
+    border-bottom: 2px rgb(120, 215, 236) solid;
+    padding: 10px;
+    background-color: rgba(249, 18, 95, 0.647);
+}
+
+header h1 {
+    width: 50%;
+    text-indent: 25px;
+    font-size: 25px;
+}
+
+header nav {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li:hover {
+    transform: scale(1.15);
+    filter: brightness(60%);
+}
+
+figure {
+    background-color:  rgb(119, 176, 189);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 10px;
+    transform: rotate(180deg);
+}
+
+img {
+    width: 100%;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: width 1.5s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 2px rgb(120, 215, 236) solid;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.left-side .section-container {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+p {
+    font-style: oblique;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 49%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    margin-left: 10px;
+}
+
+.section-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#image1 {
+    position: relative;
+}
+
+#image1 h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    margin-left: 10px;
+}
